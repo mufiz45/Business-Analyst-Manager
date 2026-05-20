@@ -24,10 +24,12 @@ Fact
 Returns_Fact
 Fact
 ✅ Tasks Breakdown
+
 1️⃣ Data Modeling
 Created relationships between Fact and Dimension tables using Primary & Foreign Keys
 Hidden unnecessary fields from the report view for a clean experience
 Ensured a clean Star Schema layout with consistent naming conventions
+
 2️⃣ DAX Measures & Calculated Columns
 Measures created using:
 CALCULATE, FILTER, ALL, SUMX, COUNTX, AVERAGEX
@@ -37,30 +39,37 @@ Calculated Columns created for:
 Profit margin classification
 Customer full names (First + Last)
 Year-Month formatting for time-based visuals
+
 3️⃣ Time Intelligence
 Implemented Year-over-Year (YOY), Month-over-Month (MOM), and Year-to-Date (YTD) calculations for both Sales and Returns
 Identified and visualized seasonal trends across the dataset
+
 4️⃣ Dashboard Layout
 Sketched layout with 1 Main Page, 2 Detail Pages, and 1 Drillthrough Page
 Used Cards, KPI Cards, Line Charts, Bar Charts, and Donut Charts
 Incorporated Trend lines and Forecasts for sales projections
 Used Matrix visuals with conditional formatting
 Added Top N Products by Sales and Top N Customers by Profit rankings
+
 5️⃣ Filtering & Interaction
 Added Slicers for Product, Customer Segment, Region, and Date
 Used Drill Up/Down and Drillthrough filters for deeper analysis
 Implemented Numeric Range Parameters for custom filtering
+
 6️⃣ Navigation & UX
 Added Custom Buttons & Bookmarks for smooth page navigation
 Built a collapsible Slicer Panel for better screen real estate
 Enabled Tooltips with mini visual summaries on hover
 Used Advanced Conditional Formatting in Matrix/Table views
+
 7️⃣ Mobile Layout
 Optimized key pages for mobile viewing
 Prioritized KPI Cards and Top N visuals for the mobile layout
+
 8️⃣ Security
 Added Roles for Region Managers using Row-Level Security (RLS)
 Simulated row-level security to restrict regional data visibility per role
+
 📦 Deliverables
 ✅ Power BI Report file (.pbix)
 ✅ Mobile Layout Preview
